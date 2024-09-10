@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       boxShadow: {
         user: "0px 15px 24px 0px rgba(0, 0, 0, 0.12)",
-        lg: "0px 4px 6px -2px rgba(16, 24, 40, 0.03); 0px 12px 16px -4px rgba(16, 24, 40, 0.08)",
+        lg: "0px 12px 16px -4px rgba(16, 24, 40, 0.08)",
       },
       colors: {
         background: "var(--background)",
