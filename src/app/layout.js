@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/templates/Header";
-import Footer from "./components/footer";
+import Footer from "./components/templates/Footer";
 
 const inter = localFont({
   src: "./fonts/Inter-Medium.ttf",

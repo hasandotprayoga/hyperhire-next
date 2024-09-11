@@ -1,6 +1,6 @@
-import LogoDark from "./atoms/LogoDark";
-import BusinessInfoDetails from "./molecules/BusinessDetails";
-import ServiceDetails from "./molecules/ServiceDetails";
+import LogoDark from "../atoms/LogoDark";
+import BusinessInfoDetails from "../molecules/BusinessDetails";
+import ServiceDetails from "../molecules/ServiceDetails";
 
 export default function Footer() {
   return (
