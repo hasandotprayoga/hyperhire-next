@@ -8,7 +8,6 @@ import { useState } from "react";
 
 export default function Header() {
   const [isOpenDrawer, setIsOpenDrawer] = useState(false);
-  const [isOpenMenu, setIsOpenMenu] = useState(false);
 
   return (
     <>

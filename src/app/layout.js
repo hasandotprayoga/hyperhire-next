@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "./components/header";
+import Header from "./components/templates/Header";
 import Footer from "./components/footer";
 
 const inter = localFont({
@@ -32,9 +32,7 @@ export default function RootLayout({ children }) {
         className={`${poppins.variable} ${inter.variable} ${pretendard.variable} antialiased`}
       >
         <Header />
-
         {children}
-
         <Footer />
       </body>
     </html>
